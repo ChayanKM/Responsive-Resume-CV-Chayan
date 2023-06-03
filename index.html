@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--========== BOX ICONS ==========-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+        
+        <!--========== CSS ==========-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <title>Responsive resume cv</title>
+    </head>
+    <body > <!-- class="scale-cv" -->
+        <!--========== HEADER ==========-->
+        <header class="l-header" id="header">
+            <nav class="nav bd-container">
+                <a href="#" class="nav__logo">Chayan</a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link active">
+                                <i class='bx bx-home nav__icon'></i>Home
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#profile" class="nav__link">
+                                <i class='bx bx-user nav__icon'></i>Profile
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#education" class="nav__link">
+                                <i class='bx bx-book nav__icon'></i>Education
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#skills" class="nav__link">
+                                <i class='bx bx-receipt nav__icon'></i>Skills
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#experience" class="nav__link">
+                                <i class='bx bx-briefcase-alt nav__icon'></i>Experience
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#technicalSkills" class="nav__link">
+                                <i class='bx bx-task nav__icon'></i>Technical Skills
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#projects" class="nav__link">
+                                <i class='bx bx-extension nav__icon'></i>Projects
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#interests" class="nav__link">
+                                <i class='bx bx-palette nav__icon'></i></i>Interests
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-grid-alt'></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main bd-container">
+            <!-- All elements within this div, is generated in PDF -->
+            <div class="resume" id="area-cv">
+                <div class="resume__left">
+                    <!--========== HOME ==========-->
+                    <section class="home" id="home">
+                        <div class="home__container section bd-grid">
+                            <div class="home__data bs-grid">
+                                <img src="assets/img/profile.jpg" alt="" class="home__img">
+                            
+                                <h1 class="home__title">Chayan Kr. Mondal</h1>
+                                <h3 class="home__profession">Web developer</h3>
+
+                                <div>
+                                    <a href="assets/pdf/ChayanKr.Mondal_Resume.pdf" class="home__button-movil">Download Pdf</a>
+                                </div>
+
+                            </div>
+                            <div class="home__address bd-grid">
+                                <span class="home__information">
+                                    <i class="bx bx-map home__icon"></i>286, Stage 2, BTM Layout, Bengaluru
+                                </span>
+                                <span class="home__information">
+                                    <i class='bx bx-envelope home__icon'></i> mondalchayan0@gmail.com
+                                </span>
+                                <span class="home__information">
+                                    <i class='bx bx-phone home__icon'></i> +91 8777686404
+                                </span>
+                            </div>
+                        </div>
+                        
+                        <!-- Theme change button -->
+                        <i class='bx bx-moon change-theme' title="Theme" id="theme-button"></i>
+    
+                        <!-- Button to generate and download the pdf. Available for desktop. -->
+                        <!-- <i class='bx bx-download generate-pdf' title="Generate PDF" id="resume-button"></i> -->
+
+                    </section>          
+                    
+                    <!--========== SOCIAL ==========-->
+                    <section class="social section">
+                        <h2 class="section-title">SOCIAL</h2>
+
+                        <div class="social__container bd-grid">
+                            <a href="https://github.com/ChayanKM" target="_blank" class="social__link">
+                                <i class='bx bxl-github social__icon'></i> GitHub
+                            </a>
+
+                            <a href="https://chayankm.github.io/Chayan-Portfolio-Website/" target="_blank" class="social__link">
+                                <i class='bx bxs-face social__icon'></i> Portfolio-Website
+                            </a>
+
+                            <a href="https://www.instagram.com/c.h.a.y.a.n.m.o.n.d.a.l/?igshid=MzNlNGNkZWQ4Mg%3D%3D" target="_blank" class="social__link">
+                                <i class='bx bxl-instagram social__icon'></i> instagram
+                            </a>
+                        </div>
+                    </section>
+
+                    <!-- ========== PROFILE ========== -->
+                    <section class="profile section" id="profile">
+                        <h2 class="section-title">Profile</h2>
+
+                        <p class="profile__description">
+                            As a fresher web developer, I possess a solid foundation in HTML, CSS, JavaScript, and React JS, 
+                            demonstrating proficiency in front-end development. I am eager to contribute my skills to creating
+                            visually appealing and user-friendly websites while continuously learning and adapting to new 
+                            technologies. With a keen eye for design and a strong attention to detail, I strive to deliver high-quality, 
+                            responsive websites that enhance the user experience.
+                        </p>
+                    
+                    </section>
+                    
+                    <!--========== EDUCATION ==========-->
+                    <section class="education section" id="education">
+                        <h2 class="section-title">Education</h2>
+
+                        <div class="education__container bd-grid">
+                            <div class="education__content">
+                                <div class="education__time">
+                                    <span class="education__rounder"></span>
+                                    <span class="education__line"></span>
+                                </div>
+
+                                <div class="education__data bd-grid">
+                                    <h3 class="education__title">B.E. in Electronics & Telecommunication Engineering</h3>
+                                    <span class="education__studies">Jadavpur University</span>
+                                    <span class="education__year">2017 - 2021</span>
+                                </div>
+                            </div>
+
+                            <div class="education__content">
+                                <div class="education__time">
+                                    <span class="education__rounder"></span>
+                                    <span class="education__line"></span>
+                                </div>
+
+                                <div class="education__data bd-grid">
+                                    <h3 class="education__title">Pure Science</h3>
+                                    <span class="education__studies">12th in Barasat P.C.S Government High School </span>
+                                    <span class="education__year">2017</span>
+                                </div>
+                            </div>
+
+                            <div class="education__content">
+                                <div class="education__time">
+                                    <span class="education__rounder"></span>
+                                    <!-- <span class="education__line"></span> -->
+                                </div>
+
+                                <div class="education__data bd-grid">
+                                    <h3 class="education__title">Science</h3>
+                                    <span class="education__studies">10th in Barasat P.C.S Government High School</span>
+                                    <span class="education__year">2015</span>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+
+                    <!--========== SKILLS  ==========-->
+                    <section class="skills section" id="skills">
+                        <h2 class="section-title">SKILLS</h2>
+
+                        <div class="skills__content bd-grid">
+                            <ul class="skills__data">
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span> <strong>Html</strong>
+                                </li>
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span> <strong>CSS/CSS3</strong>
+                                </li>
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span> <strong>JavaScript</strong>
+                                </li>
+                            </ul>
+
+                            <ul class="skills__data">
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span> <strong>React JS</strong>
+                                </li>
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span> <strong> Bootstrap</strong>
+                                </li>
+                            </ul>
+
+                            <ul class="skills__data">
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span> Java
+                                </li>
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span> SQL
+                                </li>
+                            </ul>
+
+                            <ul class="skills__data">
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span> Git
+                                </li>
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span> Windows
+                                </li>
+                            </ul>
+
+                            <ul class="skills__data">
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span> Photoshop
+                                </li>
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span> Lightroom
+                                </li>
+                            </ul>
+
+                            <ul class="skills__data">
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span>  Premiere Pro
+
+                                </li>
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span> After Effects
+                                </li>
+                            </ul>
+                        </div>
+                    </section>
+
+                </div>
+
+                <div class="resume__right">
+                 
+
+                    <!--========== EXPERIENCE ==========-->
+                    <section class="education section" id="experience">
+                        <h2 class="section-title">EXPERIENCE</h2>
+
+                        <div class="education__container bd-grid">
+                            <div class="education__content">
+                                <div class="education__time">
+                                    <span class="education__rounder"></span>
+                                </div>
+
+                                <div class="education__data bd-grid">
+                                    <h3 class="education__title">
+                                        Web-Development engineering course ( HTML, CSS, React JS, Java Script ) and ( Java, SQL ) course
+                                    </h3>
+                                    <span class="education__studies">JSpiders BTM, Bengaluru </span>
+                                    <span class="education__year">2022 to 2023</span>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+
+                    <!--========== Technical Skills ==========-->
+                    <section class="experience section" id="technicalSkills">
+                        <h2 class="section-title">Technical Skills</h2>
+
+                        <div class="experience__container bd-grid">
+                            <div class="experience__content">
+                                <div class="experience__time">
+                                    <span class="experience__rounder"></span>
+                                    <span class="experience__line"></span>
+                                </div>
+                                <div class="experience__data bd-grid">
+                                    <h3 class="experience__title">UI/UX Design | React JS</h3>
+                                    <span class="experience__company">From 2022 to 2023</span>
+                                    <p class="experience__description">
+                                        <span class="skills__circle"></span>Design and develop <strong>HTML5, CSS3, Bootstrap, JavaScript</strong> and <strong>React JS.</strong> <br> 
+                                        <span class="skills__circle"></span>Designed CSS templates like <strong>CSS Background, positioning, text, border, margin</strong> and <strong>padding.</strong> <br>
+                                        <span class="skills__circle"></span>Proficient in <strong> DOM (Document Object Model).</strong> <br>
+                                        <span class="skills__circle"></span>Developed the user interface by using <strong>React JS</strong> for SPA development. <br>
+                                        <span class="skills__circle"></span>Used <strong>React-Router</strong> to turn application into Single-Page Application. <br>
+                                        <span class="skills__circle"></span>Good understanding of <strong>Components, Class, Hooks, Props</strong> and <strong>States.</strong> <br>
+                                        <span class="skills__circle"></span>Worked on using <strong>React JS components, Forms, Events, Keys</strong> and <strong>Router concepts.</strong> <br>
+                                        <span class="skills__circle"></span>Worked on <strong>responsive design website</strong> that could be served to desktop, tablets and mobile. <br>
+                                        <span class="skills__circle"></span>Extensively used <strong>Git</strong> for version control and regularly pushed the code to <strong> GitHub.</strong>
+
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="experience__content">
+                                <div class="experience__time">
+                                    <span class="experience__rounder"></span>
+                                    <span class="experience__line"></span>
+                                </div>
+                                <div class="experience__data bd-grid">
+                                    <h3 class="experience__title">Java</h3>
+                                    <span class="experience__company">From 2022 to 2023</span>
+                                    <p class="experience__description">
+                                        <span class="skills__circle"></span>Complete knowledge on <strong>Tokens, Control Statements, Methods, Constructors</strong> and <strong>Blocks.</strong> <br>
+                                        <span class="skills__circle"></span>Good understanding of <strong>OOPS</strong> concept like <strong>Method overloading</strong> and <strong>Method overriding.</strong> <br>
+                                        <span class="skills__circle"></span>Novice knowledge on <strong>Inheritance, Encapsulation, Polymorphism</strong> and <strong>Abstraction.</strong> <br>
+                                        <span class="skills__circle"></span>Good knowledge on <strong>Up-casting, Down-casting</strong> and <strong>Exception Handling.</strong>
+
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="experience__content">
+                                <div class="experience__time">
+                                    <span class="experience__rounder"></span>
+                                    <!-- <span class="experience__line"></span> -->
+                                </div>
+                                <div class="experience__data bd-grid">
+                                    <h3 class="experience__title">SQL</h3>
+                                    <span class="experience__company">From 2022 to 2023</span>
+                                    <p class="experience__description">
+                                        <span class="skills__circle"></span>Good understanding of RDBMS concepts like <strong>Constraints, Normalization, Tables</strong> etc. <br>
+                                        <span class="skills__circle"></span>Novices understand of SQL <strong>Joins (Inner joins, Left join and Right joins and full Joins).</strong> <br>
+                                        <span class="skills__circle"></span>Good knowledge of <strong>DQL, DDL, DML, TCL</strong> and <strong>DCL.</strong>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!--========== PROJECTS ==========-->
+                    <section class="project section" id="projects">
+                        <h2 class="section-title">Projects</h2>
+
+                        <div class="project__container bd-grid">
+                            <div class="project__content">
+                                <h3 class="project__title">Portfolio Website | Responsive | React JS | CSS3 | Swiper.JS | Email.JS</h3>
+                                <span class="experience__company">From 2022 to 2023</span>
+                                <p class="project__description">
+                                    Build a stunning and modern portfolio website with React JS, ensuring seamless responsiveness across 
+                                    all devices. Showcase my hobbies, skills, and projects in an engaging and interactive manner, while 
+                                    Email.JS integration allows for convenient communication with visitors.
+                                </p>
+                            </div>
+                            <div class="project__content">
+                                <h3 class="project__title">E-commerce Website | Responsive | HTML | CSS | JavaScript</h3>
+                                <span class="experience__company">From 2022 to 2023</span>
+                                <p class="project__description">
+                                    Create a dynamic e-commerce website using HTML, CSS, and JavaScript, featuring a responsive home 
+                                    page design that adapts flawlessly to different devices. Engage customers with a captivating shop page 
+                                    and single product page, while a blog page, about page, and contact us section enhance the user 
+                                    experience. Seamlessly integrate an e-commerce shopping cart for convenient and secure online 
+                                    transactions. 
+                                </p>
+                            </div>
+                            <div class="project__content">
+                                <h3 class="project__title">Video Gallery Website | Responsive | HTML | CSS | JavaScript</h3>
+                                <span class="experience__company">From 2022 to 2023</span>
+                                <p class="project__description">
+                                    Design and develop a captivating video gallery website using HTML, CSS, and JavaScript, inspired by 
+                                    platforms like YouTube. Showcase my cinematic videos and reels, showcasing my passion in a visually 
+                                    appealing manner. Engage visitors with a user-friendly interface.
+                                </p>
+                            </div>
+    
+                        </div>
+                    </section>
+
+                    <!--========== REFERENCES ==========-->
+                    <!-- <section class="references section" id="references">
+                        <h2 class="section-title">Referances</h2>
+
+                        <div class="references__container bd-grid">
+                            <div class="references__content bd-grid">
+                                <span class="references__subtitle">Sr. Director</span>
+                                <h3 class="references__title">Mr. Clay Doe</h3>
+                                <ul class="references__contact">
+                                    <li>Phone: 1234567890</li>
+                                    <li>Email: user@gmail.com</li>
+                                </ul>
+                            </div>
+                            <div class="references__content bd-grid">
+                                <span class="references__subtitle">Sr. Director</span>
+                                <h3 class="references__title">Mr. Clay Doe</h3>
+                                <ul class="references__contact">
+                                    <li>Phone: 1234567890</li>
+                                    <li>Email: user@gmail.com</li>
+                                </ul>
+                            </div>
+                        </div>
+                        
+                    </section> -->
+
+                    <!--========== LANGUAGES ==========-->
+                    <section class="languages section" >
+                        <h2 class="section-title">languages</h2>
+
+                        <div class="languages__container">
+                            <ul class="languages__content bd-grid">
+                                <li class="languages__name">
+                                    <span class="languages__circle"></span> English
+                                </li>
+                                <li class="languages__name">
+                                    <span class="languages__circle"></span> Hindi
+                                </li>
+                                <li class="languages__name">
+                                    <span class="languages__circle"></span> Bengali
+                                </li>
+                            </ul>
+                        </div>
+                    </section>
+                    
+                    <!--========== INTERESTS ==========-->
+                    <section class="interests section" id="interests">
+                        <h2 class="section-title">Interests</h2>
+
+                        <div class="interests__container bd-grid">
+                            <div class="interests__content">
+                                <i class='bx bx-edit-alt interests__icon'></i>
+                                <span class="interests__name">Pencil Sketch</span>
+                            </div>
+                            <div class="interests__content">
+                                <i class='bx bx-camera interests__icon'></i>
+                                <span class="interests__name">Photography</span>
+                            </div>
+                            <div class="interests__content">
+                                <i class='bx bx-camera-movie interests__icon' ></i>
+                                <span class="interests__name">Cinematography</span>
+                            </div>
+                            <div class="interests__content">
+                                <i class='bx bx-landscape interests__icon'></i>
+                                <span class="interests__name">Mountaineering</span>
+                            </div>
+                        </div>
+                        
+                    </section>
+                </div>
+            </div>        
+        </main>
+
+        <!--========== SCROLL TOP ==========-->
+        <a href="#" class="scrolltop" id="scroll-top">
+            <i class="bx bx-up-arrow-alt scrolltop__icon"></i>
+        </a>
+
+        <!--========== HTML2PDF ==========-->
+        <script src="assets/js/html2pdf.bundle.min.js"></script>
+
+        <!--========== MAIN JS ==========-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
